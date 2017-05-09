@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "TamNV"
+
 #
 # Build script
 #
