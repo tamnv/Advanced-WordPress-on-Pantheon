@@ -107,3 +107,4 @@ deployment:
     branch: /.*/
     commands:
       - ./bin/deploy_to_pantheon.sh
+
