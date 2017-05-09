@@ -1,4 +1,4 @@
-Feature: Home Page
+Feature: Test Home Page
 
   Scenario: Title
   When I go to "/"
