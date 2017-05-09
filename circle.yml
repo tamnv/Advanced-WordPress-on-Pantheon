@@ -84,6 +84,7 @@ dependencies:
   override:
     - ./bin/build.sh
     - composer install --dev
+    - composer update
 
 test:
   pre:
