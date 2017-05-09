@@ -2,7 +2,7 @@ Feature: Test Home Page
 
   Scenario: Title
   When I go to "/"
-  Then I should see "Pantheon WP Best Practices" in the "h1 a" element
+  Then I should see "FFW Wordpress" in the "h1 a" element
 
   Scenario: Description
   When I go to "/"
