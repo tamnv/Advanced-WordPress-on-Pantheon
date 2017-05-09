@@ -6,6 +6,7 @@
 # such that it can be run a second time if a step fails.
 ###
 
+echo "TamNV"
 # Log into terminus.
 echo -e "\nLogging into Terminus"
 terminus auth:login --machine-token=$PANTHEON_MACHINE_TOKEN
