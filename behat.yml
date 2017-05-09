@@ -12,7 +12,6 @@ default:
   extensions:
     Behat\MinkExtension:
       base_url: http://dev-ffw-wp.pantheonsite.io/
-    Behat\MinkExtension\Extension:
       goutte: ~
       selenium2: ~
 goutte: ~
