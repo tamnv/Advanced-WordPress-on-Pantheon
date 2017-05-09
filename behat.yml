@@ -11,5 +11,5 @@ default:
         - PantheonSystems\PantheonWordPressUpstreamTests\Behat\ResponseHeader
   extensions:
     Behat\MinkExtension:
-      # base_url set by ENV
+      base_url: http://dev-ffw-wp.pantheonsite.io/
 goutte: ~
