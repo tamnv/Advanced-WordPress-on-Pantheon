@@ -36,11 +36,11 @@ set -ex
 ###
 # Create a backup of the environment
 ###
-terminus backup:create $PANTHEON_SITE_UUID.$BEHAT_ENV
+# terminus backup:create $PANTHEON_SITE_UUID.$BEHAT_ENV
 
 ###
 # Set up WordPress admin user
 ###
-{
-  terminus wp $PANTHEON_SITE_UUID.$BEHAT_ENV -- user create $WORDPRESS_ADMIN_USERNAME no-reply@getpantheon.com --user_pass=$WORDPRESS_ADMIN_PASSWORD --role=administrator
-} &> /dev/null
+# {
+#   terminus wp $PANTHEON_SITE_UUID.$BEHAT_ENV -- user create $WORDPRESS_ADMIN_USERNAME no-reply@getpantheon.com --user_pass=$WORDPRESS_ADMIN_PASSWORD --role=administrator
+# } &> /dev/null
